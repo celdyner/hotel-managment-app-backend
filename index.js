@@ -21,7 +21,7 @@ app.use(errorHandler);
 
 
 mongoose
-  .connect("mongodb://localhost/hotelmanagementapi")
+  .connect("mongodb://localhost/hotelmanagement")
   .then(() => {
     app.listen(PORT, () => console.log("SERVER IS RUNNING"));
   })
